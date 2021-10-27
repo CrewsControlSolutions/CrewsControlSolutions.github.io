@@ -13,10 +13,25 @@ h1 {
     color: #1a1a1a;
 }
 
+/* heading 2 elements */
+h2 {
+    font-family: "Trebuchet MS", Optima;
+    text-align: center;
+    margin-top: 1%;
+    color: #1a1a1a;
+}
+
 /* heading 1 element hover effect */
 h1:hover {
     filter: grayscale(5%);
     transform: scale(1.1);
+    transition: transform 1s;
+}
+
+/* heading 2 element hover effect */
+h2:hover {
+    filter: grayscale(5%);
+    transform: scale(1.05);
     transition: transform 1s;
 }
 
@@ -30,7 +45,7 @@ p {
     font-family: Perpetua, Rockwell Extra Bold;
     text-align: justify;
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 18px;
     padding-left: 20px;
     padding-right: 20px;
 }
