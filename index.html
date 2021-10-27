@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <!-- head -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Kyle Crews</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">
+    </head>
+
+    <!-- body -->
+    <body class="Background">
+
+        <!-- navbar -->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!-- breaks inserted to add space between navbar and the first heading -->
+        <br>
+        <br>
+
+        <!-- background video -->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="images/video/Typing4.mp4" type="video/mp4">
+                <!-- display message if video fails to run -->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!-- video text -->
+        <div class="Video_Text">
+            <h1 class="white-text">Kye Crews' Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>Freedom is never more than one generation away from extinction.
+                        <br>We didn't pass it to our children in the bloodstream.
+                        <br>It must be fought for, protected, and 
+                        <br>handed on for them to do the same.
+                    </q>
+                    <br> -Ronald Reagan
+                    <br>
+                    <br> My name is Kyle Crews. Welcome to my portfolio website. Please find a little about myself and my background.
+                    <br>
+                    <br> Thank you for stopping by, and God Bless!
+                </p>
+            </strong>
+        </div>
+
+        <!-- about section -->
+        <div class="Row" id="About">
+            <!-- left column -->
+            <div class="Column_2">
+                <img src="images/TechBackground1.jpg" alt="could not find image">
+            </div>
+            <!-- right column -->
+            <div class="Column_1 Column_tallest">
+                <h1>About</h1>
+                <p>
+                    I am a software developer and an avid computer programmer. In my freetime you can find me running, playing ultimate frisbee, skiing, or exploring in the mountains. 
+                    <br>
+                    <br>I am currently a student at <a href="https://www.learncodinganywhere.com" target="new">The Tech Academy</a> where I am studying <strong>Full-Stack Software Development</strong>.  I am trained and experienced in the following web and programming languages: HTML, CSS, Bootstrap4, JavaScript, Python, C++, and more.  
+                    <br>
+                    <br>In addition, I have five years of Systems Engineering experience, including familiarity with the Agile Software Development Model and tools. Most notably, I was the Lead Software Factory Tester for my company's sophisticated mapping software suite.
+                    <br>
+                    <br>I am a creative software developer with a strong background in mathematics. I would love to take your project to new heights. Please feel free to <a href="#Contact">contact me</a>.
+                </p>
+            </div>
+        </div>
+
+        <!-- GitHub section -->
+        <div class="Row" id="GitHub">
+            <!-- left column -->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my programming projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/crewscontrolsolutions" target="_blank">Crews Control Solutions GitHub</a></p>
+                </p>
+            </div>
+            <!-- right column -->
+            <div class="Column_2">
+                <a href="https://github.com/crewscontrolsolutions" target="_blank"><img src="images/GitHub.png" alt="GitHub logo not found"></a>
+            </div>
+        </div>
+
+        <!-- contact section -->
+        <div class="Row" id="Contact">
+            <!-- contact image, left column -->
+            <div class="Column_2">
+                <img src="images/Blockchain.png" alt="Blockchain image not found">
+            </div>
+            <!-- contact form, right column -->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!-- this specifies where and how to send the form data; we are leaving it blank -->
+                <form action="https://formspree.io/f/mgerbrdd" method="POST" enctype="multipart/form-data"> <!-- here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!-- footer section -->
+        <!-- <footer>
+            <p>
+                <p class="center">&copy Crews Control Solutions Inc., <a href="https://github.com/crewscontrolsolutions" target="_blank">Crews Control Solutions</a></p>
+                <br>
+            </p>
+        </footer> -->
+    </body>
+
+</html>
