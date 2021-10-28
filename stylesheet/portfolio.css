@@ -139,8 +139,8 @@ footer {
     font-size: 20px;
     text-align: center;
     position: relative; /* this sets the text relative to its normal positioning, allowing us to use the animation below */
-    -webkit-animation: moveNavText 5.75s;
-    animation: moveNavText 5.75s;
+    -webkit-animation: moveNavText 1.7s;
+    animation: moveNavText 1.7s;
 }
 
 /* moveNavText animation effect for moving the navbar text from above the view to the navbar */
@@ -194,8 +194,8 @@ footer {
     width: 100%; /* ensures the video-text container fills the width of the video */
     padding: 20px; /* this adds padding around the video-text container so that the background goes slightly beyond the text */
     position: relative; /* this sets the text relative to its normal positioning, allowing us to use the animation belwo */
-    -webkit-animation: moveVideoText 5.75s;
-    animation: moveVideoText 5.75s;
+    -webkit-animation: moveVideoText 1.5s;
+    animation: moveVideoText 1.5s;
 }
 
 /* this animation effect causes the overlay video text to move down from the top of the page upon page load */
