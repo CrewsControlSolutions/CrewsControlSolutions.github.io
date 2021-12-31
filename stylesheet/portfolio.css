@@ -365,7 +365,7 @@ footer {
 /* this class is applied to the About column in the first row to provide more room for the text */
 .Column_tallest {
     padding-top: 1%;
-    height: 40vw;
+    height: 41vw;
 }
 
 /* this inserts something after the content of selected elements (in this case the elements with class "Row") */
