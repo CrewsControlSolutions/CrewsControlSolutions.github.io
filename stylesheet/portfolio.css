@@ -64,7 +64,7 @@ p {
     font-family: Perpetua, Rockwell Extra Bold;
     text-align: justify;
     letter-spacing: .1vw;
-    font-size: 1.5vw;
+    font-size: 1.35vw;
     padding-left: 1vw;
     padding-right: 1vw;
 }
@@ -359,13 +359,13 @@ footer {
 /* this class is applied to the columns in the final row, overriding the height and padding to provide more room for the contact form while keeping the rest of the formatting from Column_1 or Column_2 */
 .Column_tall {
     padding-top: 1%;
-    height: 40vw;
+    height: 42vw;
 }
 
 /* this class is applied to the About column in the first row to provide more room for the text */
 .Column_tallest {
     padding-top: 1%;
-    height: 48vw;
+    height: 40vw;
 }
 
 /* this inserts something after the content of selected elements (in this case the elements with class "Row") */
