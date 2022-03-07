@@ -1,0 +1,17 @@
+String[] tokenize (String str, char splitChar) {
+    int output[];
+    strLength = str.length;
+
+    for (int i=0; i<strLength; i++) {
+        int j = 0;
+
+        if (str[i] != splitChar) {
+            output[j] = output[j] + str[i];
+        }
+        else {
+            j++;
+        }
+    }
+
+    return output;
+}

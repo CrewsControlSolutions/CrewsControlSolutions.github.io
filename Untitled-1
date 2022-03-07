@@ -1,0 +1,22 @@
+
+
+
+int countSetBitsInByte (unsigned char byte) {
+
+    int i = 0;
+    int output = 0;
+
+    while (i<8) {
+        if (byte & 0x1) {
+            output++;
+        }
+        i++;
+        byte << 1;
+    }
+
+    return output;
+
+}
+
+
+
